@@ -1,0 +1,201 @@
+/* You MUST NOT change the font name! */
+
+@font-face {
+    font-family: "Vazir";
+    src: local("Vazir"), url("./assets/fonts/iran.woff") format("woff"),
+        url("./assets/fonts/iran.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Vazir-Bold";
+    src: local("Vazir-Bold"),
+        url("./assets/fonts/iran_bold.woff") format("woff"),
+        url("./assets/fonts/iran_bold.woff2") format("woff2");
+}
+/* .dp__input {
+    padding: 20px;
+    border: none;
+    border-radius: 5px;
+    width: 36ch;
+    text-align: center;
+    background: #f5f5f5;
+} */
+
+.link {
+    text-decoration: none;
+}
+
+.vazir {
+    font-family: Vazir;
+}
+
+.vazirBold {
+    font-family: Vazir-Bold;
+}
+
+.big {
+    font-size: 40px;
+}
+
+* {
+    font-family: vazir;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rdp__input--start,
+.rdp__input--end {
+    border-bottom: 2px solid rgba(255, 119, 15, 0.51);
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    background: none;
+    color: rgba(255, 119, 15, 0.51);
+}
+
+.sc-kGXeez,
+.bonqgD {
+    display: flex;
+}
+
+.sc-kGXeez,
+.bonqgD > div {
+    margin: 10px;
+}
+
+.cs-message-input__content-editor {
+    background: #e5e5e5;
+}
+
+.cs-message-input__content-editor-wrapper {
+    background: #e5e5e5;
+}
+
+.cs-message--incoming .cs-message__content {
+    background: #e5e5e5;
+}
+
+.cs-message--outgoing .cs-message__content {
+    background: #e5e5e5;
+}
+
+.tabcard:hover {
+    background-color: rgb(218, 214, 214);
+    transform: 0.3s ease;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.rce-container-input {
+    background: #212121 !important;
+}
+
+.rce-container-mlist {
+    position: relative;
+    display: flex;
+    height: 700px;
+}
+
+.notiHover:hover {
+    background-color: rgb(255, 216, 157);
+    cursor: pointer;
+}
+
+/* chat */
+
+.backColor {
+    background-color: darkmagenta;
+}
+
+.body {
+    width: 100px;
+}
+
+.timeWidth {
+    width: 100px;
+}
+
+.unreadWidth {
+    width: 200px;
+}
+/* 576px */
+@media (min-width: 320px) {
+    .backColor {
+        background-color: red;
+    }
+    .body {
+        width: 250px;
+    }
+    .timeWidth {
+        width: 160px;
+    }
+    .unreadWidth {
+        width: 160px;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 400px) {
+    .backColor {
+        background-color: orange;
+    }
+    .body {
+        width: 330px;
+    }
+    .timeWidth {
+        width: 280px;
+    }
+    .unreadWidth {
+        width: 280px;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 576px) {
+    .backColor {
+        background-color: orange;
+    }
+    .body {
+        width: 500px;
+    }
+    .timeWidth {
+        width: 450px;
+    }
+    .unreadWidth {
+        width: 450px;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 720px) {
+    .body {
+        width: 680px;
+    }
+    .timeWidth {
+        width: 620px;
+    }
+    .unreadWidth {
+        width: 620px;
+    }
+}
+
+@media (min-width: 992px) {
+    .body {
+        width: 350px;
+    }
+    .timeWidth {
+        width: 260px;
+    }
+    .unreadWidth {
+        width: 260px;
+    }
+}
+
+@media (min-width: 768px) {
+}

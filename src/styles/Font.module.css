@@ -1,0 +1,25 @@
+@font-face {
+    font-family: 'Vazir';
+    src: local('Vazir'),
+        url('../assets/fonts/Vazir.woff') format('woff'),
+        url('../assets/fonts/Vazir.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: "Vazir-Bold";
+    src: local('Vazir-Bold'),
+        url('../assets/fonts/Vazir-Bold.woff') format('woff'),
+        url('../assets/fonts/Vazir-Bold.woff2') format('woff2');
+}
+
+.vazir {
+    font-family: Vazir;
+}
+
+.vazirBold {
+    font-family: Vazir-Bold;
+}
+
+.big {
+    font-size: 40px;
+}
